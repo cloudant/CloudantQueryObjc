@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
   s.osx.deployment_target = '10.10'
   s.requires_arc = true
 
-  s.source_files = 'Pod/Classes'
+  s.source_files = 'README.md'
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   s.dependency 'CDTDatastore', '>= 0.15'
